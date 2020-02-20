@@ -1,0 +1,42 @@
+body {
+    width: 1020px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+header{
+    height: 95px;
+    background: url(/singolo/assets/img/Header.png) no-repeat;
+    background-size: cover;
+}
+header .container{
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+    color: #fff;
+    font-size: 25px;
+}
+.logo .red{
+    color: #974f50;
+}
+.navigation .main-menu{
+    display: flex;
+}
+.navigation .main-menu a{
+color: #fff;
+font-size: 12px;
+margin-left: 30px;
+}
+.navigation .main-menu a:hover{
+    color: #974f50;
+}
