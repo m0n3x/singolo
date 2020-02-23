@@ -19,11 +19,15 @@ a {
 }
 header{
     height: 95px;
-    background: url(/singolo/assets/img/Header.png) no-repeat;
+    background-color: #2d303a;
     background-size: cover;
 }
+.header-color-line{
+    height: 6px;
+    background-color: #323746;
+}
 header .container{
-    height: 95px;
+    height: 89px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,15 +49,20 @@ header .container{
     font-size: 12px;
     margin-left: 30px;
 }
+
 .navigation .main-menu a:hover{
     color: #974f50;
 }
 .phones{
-    background: url(/singolo/assets/img/Bg.png) no-repeat;
-    background-size: cover;
+    background-color: #f06c64;
+    height: 600px;
+}
+.phones-color-line{
+    height: 6px;
+    background-color: #ea676b;
 }
 .phones-wrapper{
-    height: 600px;
+    height: 594px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,8 +74,12 @@ header .container{
     box-shadow: 0 0 20px 20px rgba(201,69,73,0.5);
 }
 .services{
-    background: url(/singolo/assets/img/Bg\ Bottom.png) no-repeat;
-    background-size: cover;
+    background: #f2f2f2;
+    height: 500px;
+}
+.services-color-line{
+    height: 6px;
+    background-color: #fff;
 }
 .services h2{
     color: #666d89;
@@ -76,8 +89,7 @@ header .container{
 }
 
 .services-wrapper{
-    height: 500px;
-    
+    height: 494px;
 }
 
 .services-wrapper .services-info h2{
@@ -98,18 +110,21 @@ header .container{
 .services-points{
     display: flex;
 	flex-wrap: wrap;
-
-	max-width: 940px; /* макс ширина */
+    justify-content: space-between;
+	max-width: 940px; 
 	
     
 }
 .point-container{
     display: flex;
-    max-width: 300px; /* мин. ширина блока, чтобы переносились на другой ряд */
+    max-width: 300px; 
     justify-content: space-between;
 }
 
 .point-text{
+    max-width: 225px;
+    max-height: 100px;
+    overflow: hidden;
     font-family: 'Lato-Regular';
     margin-left: 20px;
     font-size: 12px;
@@ -117,7 +132,7 @@ header .container{
 }
 .point-text p{
     text-align: left;
-    margin-right: 20px;
+    
 }
 .point-text-header{
     font-family: 'Lato-Black';
