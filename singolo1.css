@@ -1,6 +1,12 @@
 body {
     width: 1020px;
 }
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+p{
+    margin: 0;
+}
 li {
     list-style: none;
 }
@@ -41,8 +47,7 @@ margin-left: 30px;
     color: #974f50;
 }
 .phones{
-    height: 600px;
-    background: url(/singolo/assets/img/Bg.png) no-repeat;
+        background: url(/singolo/assets/img/Bg.png) no-repeat;
     background-size: cover;
 }
 .phones-wrapper{
@@ -50,4 +55,60 @@ margin-left: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.slider-left img:hover{
+    box-shadow: 0 0 20px 20px rgba(201,69,73,0.5);
+}
+.slider-right img:hover{
+    box-shadow: 0 0 20px 20px rgba(201,69,73,0.5);
+}
+.services{
+    background: url(/singolo/assets/img/Bg\ Bottom.png) no-repeat;
+    background-size: cover;
+}
+.services h2{
+    color: #666d89;
+}
+.services p{
+    color: #767e9e;
+}
+
+.services-wrapper{
+    height: 500px;
+    
+}
+.services-wrapper .services-info h2{
+    font-size: 30px;
+    padding-top: 65px;
+    margin-bottom: 35px;
+}
+.services-wrapper .services-info p{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.services-points{
+    display: flex;
+	flex-wrap: wrap;
+
+	max-width: 940px; /* макс ширина */
+	
+    
+}
+.point-container{
+    display: flex;
+    max-width: 300px; /* мин. ширина блока, чтобы переносились на другой ряд */
+    justify-content: space-between;
+}
+
+.point-text{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.design{
+    margin-bottom: 35px;
+}
+.point-text-header{
+    font-size: 18px;
+    color: #666d89;
+    margin-bottom: 20px;
 }
