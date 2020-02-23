@@ -29,6 +29,7 @@ header .container{
     align-items: center;
 }
 .logo h1{
+    font-family: 'Lato-Bold';
     color: #fff;
     font-size: 25px;
 }
@@ -39,15 +40,16 @@ header .container{
     display: flex;
 }
 .navigation .main-menu a{
-color: #fff;
-font-size: 12px;
-margin-left: 30px;
+    font-family: 'Lato-Bold';
+    color: #fff;
+    font-size: 12px;
+    margin-left: 30px;
 }
 .navigation .main-menu a:hover{
     color: #974f50;
 }
 .phones{
-        background: url(/singolo/assets/img/Bg.png) no-repeat;
+    background: url(/singolo/assets/img/Bg.png) no-repeat;
     background-size: cover;
 }
 .phones-wrapper{
@@ -77,13 +79,20 @@ margin-left: 30px;
     height: 500px;
     
 }
+
 .services-wrapper .services-info h2{
+    font-family: 'Lato-Black';
     font-size: 30px;
+    line-height: 18px;
     padding-top: 65px;
     margin-bottom: 35px;
 }
 .services-wrapper .services-info p{
+    font-family: 'Lato-Light';
     font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+    
     margin-bottom: 50px;
 }
 .services-points{
@@ -101,14 +110,22 @@ margin-left: 30px;
 }
 
 .point-text{
+    font-family: 'Lato-Regular';
     margin-left: 20px;
     font-size: 12px;
+    text-align: left;
+}
+.point-text p{
+    text-align: left;
+    margin-right: 20px;
+}
+.point-text-header{
+    font-family: 'Lato-Black';
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    margin-bottom: 20px;
 }
 .design{
     margin-bottom: 35px;
-}
-.point-text-header{
-    font-size: 18px;
-    color: #666d89;
-    margin-bottom: 20px;
 }
