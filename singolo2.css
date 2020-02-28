@@ -77,3 +77,56 @@ a{
     height: 6px;
     background-color: #323746;
 }
+.about-us{
+    background-color: #f2f2f2;
+    color: #666d89;
+    height: 729px;
+}
+.about-us-text{
+    padding-top: 62px;
+}
+.about-us-text h2{
+    font-family: "Lato-Black";
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.about-us-text p{
+    font-family: "Lato-Light";
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.about-us-people{
+    display: flex;
+}
+.about-us-people img{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.about-us-people h2{
+    margin-bottom: 15px;
+    font-family: "Lato-Black";
+    font-size: 18px;
+}
+.about-us-people p{
+    font-family: "Lato-Light";
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-bottom: 26px;
+}
+.about-us-social-links{
+    display: flex;
+}
+.about-us-social-links img{
+    width: 32px;
+    height: 32px;
+}
+.about-us-social-links a{
+    display: block;
+    width: 30px;
+    margin-right: 8px;
+    overflow: hidden;
+}
+.about-us-people-first, .about-us-people-second, .about-us-people-third{
+    max-width: 300px;
+    margin-right: 20px;
+}
