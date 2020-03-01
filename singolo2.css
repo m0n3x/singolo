@@ -23,7 +23,7 @@ a{
     height: 863px;
 }
 .portfolio_text{
-    padding-top: 65px;
+    padding-top: 62px;
     color: #666d89;
 }
 .portfolio_text h2{
@@ -33,22 +33,23 @@ a{
 .portfolio_text p{
     font-size: 18px;
     font-family: "Lato-Light";
-    margin-top: 30px;
+    margin-top: 22px;
     margin-bottom: 15px;
 }
 .portfolio_buttons form button{ 
-    height: 20px;
+    height: 22px;
     border: 1px solid #666d89;
     background-color: #2d303a;
     border-radius: 5px;
-    margin-right: 10px;
-    margin-bottom: 15px;
+    margin-right: 5px;
+    margin-left: 1px;
+    margin-bottom: 22px;
 }
 .portfolio_buttons form button a{
     font-family: "Lato-Regular";
     font-size: 12px;
     color: #666d89;
-    
+    text-align: top;
 }
 
 .portfolio_buttons form button:hover{
@@ -62,7 +63,6 @@ a{
 	flex-wrap: wrap;
     justify-content: space-between;
 	max-width: 940px; 
-	
 }
 .portfolio_gallery img{
     width: 220px;
