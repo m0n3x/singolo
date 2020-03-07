@@ -13,3 +13,130 @@ li {
 a{
     text-decoration: none;
 }
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+.quote-wrapper {
+    background-color: #f06c64;
+    background-size: cover;
+    height: 648px;
+}
+.quote-text{
+    padding-top: 60px;
+    color: #f0d8d9;
+}
+.quote-text h2{
+    font-family: "Lato-Black";
+    font-size: 30px;
+}
+.quote-text p{
+    font-size: 18px;
+    font-family: "Lato-Light";
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+.quote-field{
+    display: flex;
+    margin-top: 60px;
+
+}
+.quote-field-form input{
+    width: 619px;
+    height: 37px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin-bottom: 16px;
+}
+.quote-field-form input:last-child{
+    width: 619px;
+    height: 200px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin-bottom: 0px;
+}
+/**styles for placeholder text **/
+input[type="text"]::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato-Regular";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+} 
+input[type="text"]::-moz-placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato-Regular";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+}
+input[id="textarea"]::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato-Regular";
+    padding-left: 15px;
+} 
+input[id="textarea"]::-moz-placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato-Regular";
+    padding-left: 15px;
+}
+.quote-field-info{
+    color: #f0d8d9;
+    margin-left: 18px;
+}
+.quote-field-info h3{
+    font-size: 18px;
+    line-height: 18px;
+    font-family: "Lato-Black";
+    text-align: left;
+    margin-bottom: 10px;
+}
+.quote-field-info p{
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+.quote-field-info-contact{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.quote-field-info-contact .contact-adress::before{
+    content: url(../singolo/assets/img/location.svg);
+    margin-right: 10px;
+}
+.quote-field-info-contact .contact-phone::before{
+    content: url(../singolo/assets/img/phone-icon.svg);
+    margin-right: 10px;
+}
+.quote-field-info-contact .contact-mail::before{
+    content: url(../singolo/assets/img/mail.svg);
+    margin-right: 10px;
+}
+.quote-color-line{
+    height: 6px;
+    background-color: #ea676b;
+}
+.footer-wrapper{
+    background-color: #2d303a;
+    
+}
+.footer-wrapper .container{
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
